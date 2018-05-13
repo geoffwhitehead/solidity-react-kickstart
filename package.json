@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "prettier-watch": "onchange '**/*.js' -- prettier --write {{changed}}"
   },
   "license": "MIT",
   "dependencies": {
     "fs-extra": "^6.0.1",
     "ganache-cli": "^6.1.0",
     "mocha": "^5.1.1",
+    "onchange": "^4.0.0",
+    "prettier": "^1.12.1",
     "solc": "^0.4.23",
+    "truffle-hdwallet-provider": "0.0.3",
     "web3": "1.0.0-beta.26"
   }
 }
