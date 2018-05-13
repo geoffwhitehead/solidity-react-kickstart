@@ -2,6 +2,9 @@
   "name": "solidity-react-kickstart",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "license": "MIT",
   "dependencies": {
     "fs-extra": "^6.0.1",
